@@ -1,0 +1,369 @@
+
+body {
+	background-image: url('../images/food.png');
+}
+
+header {
+	background-image: url('../images/grunge.png');
+	width: 100%;
+	height: 65px;
+	
+	margin-bottom: 85px;
+}
+
+#name {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+	padding: 30px 30px 11px 30px;
+	margin-left: 15%;
+	float: left;
+	background-color: #4574AD;
+	position: relative;
+}
+
+.layer1 {
+	background-color: #64A7FA;
+	opacity: .4;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 85px;
+}
+
+nav{
+	float: right;
+	margin-right: 5%;
+	margin-top: 35px;
+	font-weight: bold;
+
+}
+
+.moveup {
+	position: relative;
+	bottom: 86px;
+	height: 2px;
+}
+
+li {
+	display: inline;
+	font-family: 'Quicksand', sans-serif;
+	padding: 0px 10px 0px 10px;
+	font-size: 18px;
+	border-right: 1px solid #000000;
+}
+
+hr {
+	margin-top: 20px;
+	width: 90%;
+    border: 0;
+    height: .8px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.main {
+	width: 50%;
+	height: 300%;
+	float: left;
+	background-image: url('../images/grunge.png');
+	font-size: 30px;
+	font-family: 'Quicksand', sans-serif;
+	margin-left: 10%;
+	margin-right: 2.5%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	box-shadow: 5px 5px 3px #666666;
+
+}
+
+.photo1 {
+	float: left;
+	background-image: url('../images/projectone.jpg');
+	background-size: cover;
+	background-position: center center;
+	width: 200px;
+	height: 200px;
+	padding: 5%;
+	margin: 30px;
+	border: 1px solid black;
+	margin-left: 10%;
+}
+
+.photo2 {
+	float: left;
+	background-image: url('../images/projecttwo.jpg');
+	background-size: cover;
+	background-position: center center;
+	width: 200px;
+	height: 200px;
+	padding: 5%;
+	margin: 30px;
+	border: 1px solid black;
+}
+
+.photo3 {
+	float: left;
+	background-image: url('../images/projectthree.png');
+	background-size: cover;
+	background-position: center center;
+	width: 200px;
+	height: 200px;
+	padding: 5%;
+	margin: 30px;
+	border: 1px solid black;
+	margin-left: 10%;
+}
+
+.photo4 {
+	float: left;
+	background-image: url('../images/projectfour.jpg');
+	background-size: cover;
+	background-position: center center;
+	width: 200px;
+	height: 200px;
+	padding: 5%;
+	margin: 30px;
+	border: 1px solid black;
+}
+
+.photo5 {
+	float: left;
+	background-image: url('../images/projectfive.jpg');
+	background-size: cover;
+	background-position: center center;
+	width: 200px;
+	height: 200px;
+	padding: 5%;
+	margin: 30px;
+	border: 1px solid black;
+	margin-left: 10%;
+}
+
+.banner {
+	background-color: blue;
+	opacity: .8;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+	position: relative;
+	top: 80%;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding: 5%;
+	text-align: center;
+
+}
+
+#about {
+	font-size: 25px;
+	font-family: 'Quicksand', sans-serif;
+	padding-top: 5%;
+	padding-left: 6%;
+}
+
+.jamesphoto {
+	height: 40%; 
+	width: 35%;
+	float: left;
+	margin: 3%;
+}
+
+p {
+	font-size: 14px;
+	font-family: 'Exo', sans-serif;
+	line-height: 1.5em;
+	padding: 3%;
+}
+
+.main2 {
+
+	height: 40%;
+	background-image: url('../images/grunge.png');
+	float: left;
+	margin-right: 5%;
+	margin-left: 2%;
+	margin-top: 50px;
+	box-shadow: 5px 5px 3px #666666;
+}
+
+.inline {
+	display: inline;
+	border: 1px solid red;
+}
+
+footer {
+	float: left;
+	background-image: url('../images/grunge.png');
+	font-size: 15px;
+	font-family: 'Quicksand', sans-serif;
+	line-height: 3.0;
+	width: 100%;
+	padding-top: : 30px;
+	padding-bottom: 10px;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+
+}
+
+.layer {
+	background-color: #64A7FA;
+	opacity: .4;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+	background-image: url('../images/grunge.png');
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
+.linkedin {
+	height: 50px;
+	width: 50px;
+	margin-left: 10px;
+	display: inline;
+	padding: 10px 0px 0px 10px;
+	font-size: 25px;
+
+}
+
+form {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+}
+
+.submit {
+
+}
+
+
+.form {
+	margin-left: 10px;
+	padding-left: 30px;
+}
+
+
+@media screen and (max-width: 980px) {
+
+	.main{
+	width: 45%;
+	height: 200%;
+	float: left;
+	font-size: 25px;
+	margin-left: 10%;
+	margin-right: 2%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  }
+  	.main2{
+  	width: 33%;
+	height: 35%;
+	float: left;
+	margin-right: 2.5%;
+	margin-left: 5%;
+	margin-top: 30px;
+	box-shadow: 5px 5px 3px #666666;
+  	}
+
+  	.jamesphoto {
+	height: 90%; 
+	width: 90%;
+	float: left;
+	margin: 5%;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+	.main{
+	width: 90%;
+	height: 200%;
+	float: left;
+	font-size: 25px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  }
+  	.main2{
+  	width: 90%;
+	height: 35%;
+	float: left;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 30px;
+	box-shadow: 5px 5px 3px #666666;
+  	}
+
+  	.jamesphoto {
+	height: 45%; 
+	width: 45%;
+	float: left;
+	margin: 5%;
+}
+}
+
+@media screen and (max-width: 640px) {
+
+	.main{
+	width: 90%;
+	height: 200%;
+	float: left;
+	font-size: 25px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 20px;
+  	}
+  	.main2{
+  	width: 90%;
+	height: 35%;
+	float: left;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 30px;
+	box-shadow: 5px 5px 3px #666666;
+  	}
+
+  	.jamesphoto {
+	height: 90%; 
+	width: 90%;
+	float: left;
+	margin: 5%;
+	}
+
+	header{
+	background-image: url('../images/grunge.png');
+	width: 100%;
+	height: 130px;
+	margin-bottom: 5%;
+}
+
+	#name {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+	margin: 0;
+	padding-left: 100px;
+	padding-right: 100px;
+	float: center;
+	background-color: #4574AD;
+
+}
+
+	nav{
+	margin-top: 25px;
+	font-weight: bold;
+	padding-right: 50px;
+	margin: auto;
+}
+}
